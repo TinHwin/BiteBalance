@@ -11,6 +11,7 @@ BiteBalance is an all-in-one meal planning mobile app designed for college stude
 
 <img width="538" height="808" alt="Screenshot 2025-08-01 at 5 22 12 PM" src="https://github.com/user-attachments/assets/036ae0ac-4c76-48e4-b8f0-393195cfb67a" />
 
+
 **Recipe Search**
 Users can search for any recipes by writing in the search bar. The search results will be filtered based on user preferences they’ve entered. This means that if the users  had a certain diet or intolerances, the recipe will not contain those ingredients that can affect the user. However, if the user entered ingredients they liked, the recipe will have ingredients they liked in the recipe. The recipe will be fetched using the Spoonacular API.
 
@@ -35,3 +36,7 @@ Implements Google Authentication for secure login, storing user information such
 **Ingredient Checklist**
 Provides a checkbox list for ingredients on `CartScreen` for shopping.
 
+**Installation**
+- Dependencies: Install Node.js, React Native CLI, Android Studio, and Firebase CLI.
+- Setup: Clone the repository, run `npm install`, set up Firebase credentials, and configure Spoonacular API keys.
+- Run: Use `npx react-native start` to start Metro Bundler in the project folder, then Use `npx react-native run-android` for the Android emulator.
